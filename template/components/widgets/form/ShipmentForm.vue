@@ -82,8 +82,8 @@
       required
     ></v-text-field>
     <div class="form-btn">
-      <v-btn outline @click="submit" color="primary">Submit</v-btn>
-      <v-btn outline @click="clear">Clear</v-btn>
+      <v-btn outlinedd @click="submit" color="primary">Submit</v-btn>
+      <v-btn outlinedd @click="clear">Clear</v-btn>
     </div>
 
   </v-form>

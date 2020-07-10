@@ -5,7 +5,7 @@
     <v-card-text>
  
     <v-divider></v-divider>
-    <v-toolbar card color="white">
+    <v-toolbar color="white">
         <v-text-field
         flat
         solo

@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-toolbar card prominent extended color="primary" dark="">
+    <v-toolbar prominent extended color="primary" dark="">
       <v-toolbar-title class="body-2">Add New Event</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon @click="closeDialog">

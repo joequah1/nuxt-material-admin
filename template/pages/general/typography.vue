@@ -2,7 +2,7 @@
   <div id="typography-page">
     <v-container fluid grid-list-lg>
       <v-card>
-        <v-toolbar card prominent>
+        <v-toolbar prominent>
           <v-toolbar-title class="body-2 grey--text">Typography</v-toolbar-title>
           <v-spacer></v-spacer>
           <v-btn icon>

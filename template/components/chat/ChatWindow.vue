@@ -1,7 +1,7 @@
 
 <template>
   <v-card class="chat-room">
-    <v-toolbar card dense flat class="white chat-room--toolbar" light>
+    <v-toolbar dense flat class="white chat-room--toolbar" light>
       <v-btn icon>
         <v-icon color="text--secondary">keyboard_arrow_left</v-icon>
       </v-btn>

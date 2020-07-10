@@ -37,14 +37,14 @@
               <small>50+</small>
             </a>
           </div>
-          <v-btn outline flat color="primary">
+          <v-btn outlinedd flat color="primary">
             More
           </v-btn>
         </div>    
       </div>
     </v-card-text>
     <v-divider></v-divider>
-    <v-toolbar card color="white">
+    <v-toolbar color="white">
         <v-text-field
         flat
         solo

@@ -41,7 +41,7 @@
                   </h4>
                   <v-divider class="my-4"></v-divider>
                   <div class="py-3">
-                    <v-alert outline color="primary" icon="attach_file" :value="true">
+                    <v-alert outlined color="primary" icon="attach_file" :value="true">
                       Weekly Report
                     </v-alert>
                   </div>

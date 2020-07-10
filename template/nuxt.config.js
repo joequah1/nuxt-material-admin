@@ -61,6 +61,13 @@ module.exports = {
   modules: [],
 
   /*
+  ** Nuxt.js build modules
+  */
+  buildModules: [
+    '@nuxtjs/vuetify'
+  ],
+
+  /*
   ** Build configuration
   */
   build: {
@@ -78,5 +85,7 @@ module.exports = {
     extend(config, ctx) {
 
     }
-  }
+  },
+
+  serverMiddleware: ['~/server/index.js']
 }

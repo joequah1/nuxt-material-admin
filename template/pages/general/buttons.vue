@@ -33,13 +33,13 @@
               </div>
             </div>
           </v-widget>
-          <v-widget title="Outline button" class="mt-3">
+          <v-widget title="outlined button" class="mt-3">
             <div slot="widget-content">
               <div>
-                <v-btn color="success" outline="">Success</v-btn>
-                <v-btn color="error" outline>Error</v-btn>
-                <v-btn color="warning" outline>Warning</v-btn>
-                <v-btn color="info" outline>Info</v-btn>
+                <v-btn color="success" outlined="">Success</v-btn>
+                <v-btn color="error" outlined>Error</v-btn>
+                <v-btn color="warning" outlined>Warning</v-btn>
+                <v-btn color="info" outlined>Info</v-btn>
               </div>
             </div>
           </v-widget>

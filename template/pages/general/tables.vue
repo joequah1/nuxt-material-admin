@@ -7,7 +7,7 @@
         </v-flex>
         <v-flex lg12>
           <v-card>
-            <v-toolbar card color="white">
+            <v-toolbar color="white">
               <v-text-field
                 flat
                 solo
@@ -50,10 +50,10 @@
                   <td>{{ props.item.email }}</td>
                   <td>{{ props.item.phone }}</td>
                   <td>
-                    <v-btn depressed outline icon fab dark color="primary" small>
+                    <v-btn depressed outlined icon fab dark color="primary" small>
                       <v-icon>edit</v-icon>
                     </v-btn>
-                    <v-btn depressed outline icon fab dark color="pink" small>
+                    <v-btn depressed outlined icon fab dark color="pink" small>
                       <v-icon>delete</v-icon>
                     </v-btn>
                   </td>

@@ -4,7 +4,7 @@
       <v-app id="inspire" class="app">
         <app-drawer class="app--drawer"></app-drawer>
         <app-toolbar class="app--toolbar"></app-toolbar>
-        <v-content>
+        <v-main>
           <!-- Page Header -->
           <page-header></page-header>
           <div class="page-wrapper">
@@ -17,7 +17,7 @@
             <span class="caption mr-1"> Made with love </span>
             <v-icon color="pink" small>favorite</v-icon>
           </v-footer>
-        </v-content>
+        </v-main>
         <!-- Go to top -->
         <app-fab></app-fab>
         <!-- theme setting -->
@@ -47,7 +47,7 @@
       v-model="snackbar.show"
     >
       {{ snackbar.text }}
-      <v-btn dark flat @click.native="snackbar.show = false" icon>
+      <v-btn dark @click.native="snackbar.show = false" icon>
         <v-icon>close</v-icon>
       </v-btn>
     </v-snackbar>

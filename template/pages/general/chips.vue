@@ -43,13 +43,13 @@
               </div>
             </div>
           </v-widget>
-          <v-widget title="Outline Chip" class="mt-3">
+          <v-widget title="outlined Chip" class="mt-3">
             <div slot="widget-content">
               <div class="text-xs-center">
-                <v-chip color="primary" outline>Primary</v-chip>
-                <v-chip color="secondary" outline>Secondary</v-chip>
-                <v-chip color="red" outline>Colored Chip</v-chip>
-                <v-chip color="green" outline>Colored Chip</v-chip>
+                <v-chip color="primary" outlined>Primary</v-chip>
+                <v-chip color="secondary" outlined>Secondary</v-chip>
+                <v-chip color="red" outlined>Colored Chip</v-chip>
+                <v-chip color="green" outlined>Colored Chip</v-chip>
               </div>
             </div>
           </v-widget>
@@ -60,7 +60,7 @@
                 <v-chip label color="pink" text-color="white">
                   <v-icon left>label</v-icon>Tags
                 </v-chip>
-                <v-chip label outline color="red">Outline</v-chip>
+                <v-chip label outlined color="red">outlined</v-chip>
               </div>
             </div>
           </v-widget>

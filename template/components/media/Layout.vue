@@ -27,14 +27,14 @@
   <div class="layout row">
     <div class="media-aside media-menu">
       <v-list dense class="transparent">
-        <v-list-tile v-for="(item,index) in mediaMenu" :key="index" :to="item.to">
-          <v-list-tile-action v-if="item.icon">
+        <v-list-item v-for="(item,index) in mediaMenu" :key="index" :to="item.to">
+          <v-list-item-action v-if="item.icon">
               <v-icon>{{ item.icon }}</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-              <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
+          </v-list-item-action>
+          <v-list-item-content>
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </div>
     <div class="media-content flex transparent">
